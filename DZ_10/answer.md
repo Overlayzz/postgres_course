@@ -33,6 +33,7 @@ UPDATE test.test_json SET data = data::jsonb || '{"a":1}';
 ```
 
 4. Убедиться в блоатинге TOAST
+
 ![img_5.png](img_5.png)
 
 5. Придумать метод избавится от него и проверить на практике
